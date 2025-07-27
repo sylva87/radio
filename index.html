@@ -156,6 +156,34 @@
       <img src="https://m.media-amazon.com/images/I/A1DfYWJpIOL._UF1000,1000_QL80_.jpg" alt="Shawn Mendes">
       <div class="artist-name">Shawn Mendes</div>
     </div>
+     <div class="artist" onclick="playArtist('styles', 'Harry Styles')">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv1_kPjP6AiqTjW6WSmGzzvf-JDHaJR9HxMA&s" alt="Harry Styles">
+      <div class="artist-name">Harry Styles</div>
+    </div>
+    <div class="artist" onclick="playArtist('imagine', 'Imagine Dragons')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Imagine_Dragons_logo_%28WB%29.png" alt="Imagine Dragons">
+      <div class="artist-name">Imagine Dragons</div>
+    </div>
+    <div class="artist" onclick="playArtist('maroon', 'Maroon 5')">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgolc1AVWkekQNzwqlv1XMwdHiFYNwC45lHv-7EZvL8XaDTo5nrse0NiIEkV_5KnvLQvCNePq4NuuvnTBvg3ZX_BE2cVPG_eD2rpMOV5Y" alt="Maroon 5">
+      <div class="artist-name">Maroon 5</div>
+    </div>
+    <div class="artist" onclick="playArtist('niall', 'Niall Horan')">
+      <img src="https://hips.hearstapps.com/hmg-prod/images/01-esq-niall-horan-220a-642dd6660d35d.jpg" alt="Niall Horan">
+      <div class="artist-name">Niall Horan</div>
+    </div>
+     <div class="artist" onclick="playArtist('sam', 'Sam Smith')">
+      <img src="https://br.web.img2.acsta.net/c_310_420/pictures/15/09/08/16/27/212808.jpg" alt="Sam Smith">
+      <div class="artist-name">Sam Smith</div>
+    </div>
+    <div class="artist" onclick="playArtist('taylor', 'Taylor Swift')">
+      <img src="https://www.mensjournal.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjEzMzAyMDk5MjU2MDI2OTcz/taylor-swift-kylie-kelce-comments.jpg" alt="Taylor Swift">
+      <div class="artist-name">Taylor Swift</div>
+    </div>
+    <div class="artist" onclick="playArtist('abba', 'ABBA')">
+      <img src="https://m.media-amazon.com/images/I/913VZBIkxdL.jpg" alt="ABBA">
+      <div class="artist-name">ABBA</div>
+    </div>
   </div>
 
   <!-- Novo elemento para exibir o nome do artista -->
@@ -173,7 +201,14 @@
     const musicLinks = {
       onedirection: "https://nl4.mystreaming.net/er-app/onedirection/icecast.audio",
       ed: "https://nl4.mystreaming.net/er-app/edsheeran/icecast.audio",
-      shawn: "https://2.mystreaming.net/er-app/shawnmendes/icecast.audio"
+      shawn: "https://2.mystreaming.net/er-app/shawnmendes/icecast.audio",
+      styles: "https://streaming.exclusive.radio/er-app/harrystyles/icecast.audio",
+      imagine: "https://streaming.exclusive.radio/er-app/imaginedragons/icecast.audio",
+      maroon: "https://streaming.exclusive.radio/er-app/maroon5/icecast.audio",
+      niall: "https://streaming.exclusive.radio/er-app/niallhoran/icecast.audio",
+      sam: "https://streaming.exclusive.radio/er-app/samsmith/icecast.audio",
+      taylor: "https://streaming.exclusive.radio/er-app/taylorswift/icecast.audio",
+      abba: "https://streaming.exclusive.radio/er-app/abba/icecast.audio"
     };
 
     function playArtist(artistKey, artistName) {
